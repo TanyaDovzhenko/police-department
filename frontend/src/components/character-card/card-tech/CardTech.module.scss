@@ -1,0 +1,24 @@
+.tech {
+    font-size: 13px;
+    padding: 10px 10px 0;
+    max-height: 195px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    .vehicles,
+    .ships {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .vehicles {
+        margin-bottom: 10px;
+    }
+
+    .techItem {
+        background: rgb(0 0 0 / 33%);
+        padding: 3px 5px;
+        margin-bottom: 7px;
+        border-radius: 5px;
+    }
+}
